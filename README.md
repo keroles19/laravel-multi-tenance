@@ -92,3 +92,6 @@ if you get any errors in this step, when seeding the database related to existin
 - I used the single-database approach to achieve multi-tenancy. In this approach, all tenant data is stored in a single database with appropriate tenant identifiers. This approach can be simpler to manage but may have limitations in terms of data isolation and scalability.
 - I used roles and permission to separate the super admin from other users, and I used the `spatie/laravel-permission` package to achieve this.
 - I used MiddleWare to check if the user has the required role to access the requested route and dashboard.
+
+![Blank diagram](https://github.com/keroles19/laravel-multi-tenance/assets/36054945/b22214cd-6085-4351-9349-a9d82f3a215a)
+![schema](https://github.com/keroles19/laravel-multi-tenance/assets/36054945/5b45b4c9-e9e4-41f3-ac04-3644ceaeefe4)
